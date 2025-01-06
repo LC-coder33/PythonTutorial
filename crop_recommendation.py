@@ -48,20 +48,20 @@ st.write('토양 조건과 환경 조건을 입력하면 최적의 작물을 추
 st.subheader('토양 영양분 조건')
 col1, col2, col3 = st.columns(3)
 with col1:
-    n = st.number_input('질소(N)', min_value=0, max_value=150, value=90)
+    n = st.number_input('질소(N)', min_value=0, max_value=120, value=50)
 with col2:
-    p = st.number_input('인(P)', min_value=0, max_value=150, value=40)
+    p = st.number_input('인(P)', min_value=0, max_value=140, value=53)
 with col3:
-    k = st.number_input('칼륨(K)', min_value=0, max_value=150, value=40)
+    k = st.number_input('칼륨(K)', min_value=0, max_value=200, value=48)
 
 st.subheader('환경 조건')
 col4, col5 = st.columns(2)
 with col4:
-    temp = st.slider('온도(°C)', min_value=0.0, max_value=45.0, value=25.0)
-    humidity = st.slider('습도(%)', min_value=0.0, max_value=100.0, value=80.0)
+    temp = st.slider('온도(°C)', min_value=0.0, max_value=45.0, value=26.0)
+    humidity = st.slider('습도(%)', min_value=0.0, max_value=100.0, value=71.0)
 with col5:
     ph = st.slider('pH', min_value=0.0, max_value=10.0, value=7.0)
-    rainfall = st.slider('강수량(mm)', min_value=0.0, max_value=300.0, value=200.0)
+    rainfall = st.slider('강수량(mm)', min_value=0.0, max_value=300.0, value=103.0)
 
 # 예측하기 버튼
 if st.button('작물 추천받기'):
