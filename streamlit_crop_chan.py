@@ -97,3 +97,22 @@ if st.button('작물 추천받기'):
     # 신뢰도 게이지
     st.subheader('추천 신뢰도')
     st.progress(probabilities[prediction])
+    
+    
+#N: 80
+#P: 45
+#K: 40
+#temperature: 23
+#humidity: 82
+#ph: 6.5
+#rainfall: 240
+# rice
+
+#N: 20
+#P: 125
+#K: 200
+#temperature: 22
+#humidity: 90
+#ph: 6.0
+#rainfall: 110
+#banana
