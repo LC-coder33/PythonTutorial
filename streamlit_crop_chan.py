@@ -8,7 +8,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 # 폰트 설정
-plt.rcParams['font.family'] = 'Malgun Gothic'
+plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
 pd.options.display.float_format = '{:.2f}'.format
 
@@ -108,11 +108,10 @@ if st.button('작물 추천받기'):
 #rainfall: 240
 # rice
 
-#N: 20
-#P: 125
-#K: 200
-#temperature: 22
-#humidity: 90
-#ph: 6.0
-#rainfall: 110
-#banana
+#N: 100
+#P: 75
+#K: 50
+#temperature: 27
+#humidity: 80
+#ph: 6.5
+#rainfall: 100
