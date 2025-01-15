@@ -78,7 +78,7 @@ try:
         
         with col1:
             st.subheader("업로드된 MRI 이미지")
-            st.image(image, use_column_width=True)
+            st.image(image, use_container_width=True)
         
         with col2:
             st.subheader("분석 결과")
@@ -111,4 +111,4 @@ except Exception as e:
 
 # 페이지 하단
 st.markdown("---")
-st.markdown("© 2025 Brain Tumor Classification System. For educational purposes only.")
+st.markdown("© 2025 Human Brain Tumor Classification System. For educational purposes only.")
